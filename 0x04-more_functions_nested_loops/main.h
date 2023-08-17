@@ -1,6 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
+int _isdigit(int c);
 int _isupper(int c);
 int print_last_digit(int);
 int _abs(int);
