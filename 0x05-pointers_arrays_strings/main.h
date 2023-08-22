@@ -1,6 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
+char *_strcpy(char *dest, char *src);
 void puts_half(char *str);
 void print_array(int *a, int n);
 void puts2(char *str);
