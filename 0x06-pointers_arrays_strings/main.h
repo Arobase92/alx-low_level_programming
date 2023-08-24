@@ -1,6 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
+char *rot13(char *);
 char *leet(char *);
 char *cap_string(char *);
 char *string_toupper(char *);
