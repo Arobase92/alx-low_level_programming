@@ -14,7 +14,6 @@ char *string_toupper(char *str)
 {
 	int length = strlen(str);
 	int i;
-	char c;
 
 	for (i = 0; i < length; i++)
 	{
