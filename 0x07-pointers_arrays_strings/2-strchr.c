@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * strchr- function to locate a character
+ * _strchr- function to locate a character
  *
  * @s: pointer to string to search character
  * @c: character to locate
@@ -12,5 +12,6 @@
 char *_strchr(char *s, char c)
 {
 	char *result = strchr(s, c);
+
 	return (result);
 }
