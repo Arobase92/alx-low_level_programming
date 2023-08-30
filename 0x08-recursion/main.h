@@ -1,6 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
+int _strlen_recursion(char *s);
 void _puts_recursion(char *s);
 void print_diagsums(int *a, int size);
 void print_chessboard(char (*a)[8]);
