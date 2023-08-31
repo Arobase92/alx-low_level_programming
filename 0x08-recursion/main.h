@@ -1,6 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
+void _print_rev_recursion(char *s);
 int isPrime(int n, int i);
 int is_prime_number(int n);
 int _sqrt_recursion(int n);
