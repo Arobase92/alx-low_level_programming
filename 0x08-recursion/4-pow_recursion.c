@@ -5,6 +5,7 @@
  *
  * @x: value to raise
  * @y: number time x
+ * Return: int
  *
  */
 int _pow_recursion(int x, int y)
