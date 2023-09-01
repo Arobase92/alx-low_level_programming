@@ -1,6 +1,8 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
+int isHelperPalindrome(char *s, int start, int end);
+int is_palindrome(char *s);
 void _print_rev_recursion(char *s);
 int isPrime(int n, int i);
 int is_prime_number(int n);
