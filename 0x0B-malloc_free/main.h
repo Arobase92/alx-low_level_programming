@@ -1,6 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
+char *_strdup(char *str);
 char *create_array(unsigned int size, char c);
 void print_diagsums(int *a, int size);
 void print_chessboard(char (*a)[8]);
