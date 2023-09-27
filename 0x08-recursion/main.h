@@ -1,6 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
+int wildcmp(char *s1, char *s2);
 int isHelperPalindrome(char *s, int start, int end);
 int is_palindrome(char *s);
 void _print_rev_recursion(char *s);
