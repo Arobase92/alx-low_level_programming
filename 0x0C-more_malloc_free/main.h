@@ -7,6 +7,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void *_calloc(unsigned int nmemb, unsigned int size);
 void free_grid(int **grid, int height);
+int *array_range(int min, int max);
 int **alloc_grid(int width, int height);
 char *str_concat(char *s1, char *s2);
 char *argstostr(int ac, char **av);
